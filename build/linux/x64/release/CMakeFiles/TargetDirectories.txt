@@ -1,0 +1,14 @@
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/CMakeFiles/rescreenapp.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/CMakeFiles/edit_cache.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/CMakeFiles/rebuild_cache.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/CMakeFiles/list_install_components.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/CMakeFiles/install.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/CMakeFiles/install/local.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/CMakeFiles/install/strip.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/flutter/CMakeFiles/flutter_assemble.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/flutter/CMakeFiles/edit_cache.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/flutter/CMakeFiles/rebuild_cache.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/flutter/CMakeFiles/list_install_components.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/flutter/CMakeFiles/install.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/flutter/CMakeFiles/install/local.dir
+/home/luca/Dokumente/dev/dart/rescreenapp/build/linux/x64/release/flutter/CMakeFiles/install/strip.dir
