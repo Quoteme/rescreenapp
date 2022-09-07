@@ -38,8 +38,7 @@
           xorg.libXtst
           cairo.dev
           # Dependencies for the flutter app
-          brightnessctl
-          pamixer
+          mons
         ];
       in
         rec {
