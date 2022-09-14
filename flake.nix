@@ -21,10 +21,12 @@
           clang
           cmake
           dart
+          dbus
           dbus.dev
           flutter
           gtk3
           libdatrie
+          libepoxy
           libepoxy.dev
           libselinux
           libsepol
@@ -33,6 +35,7 @@
           ninja
           pcre
           pkg-config
+          util-linux
           util-linux.dev
           xorg.libXdmcp
           xorg.libXtst
@@ -61,7 +64,7 @@
               mkdir -p $out/bin
               cp -r $src/build/linux/x64/release/bundle/* $out/bin/
               wrapProgram $out/bin/rescreenapp \
-                --prefix LD_LIBRARY_PATH : ${pkgs.lib.makeLibraryPath [pkgs.libepoxy pkgs.gtk3]}
+                --prefix LD_LIBRARY_PATH : ${pkgs.lib.makeLibraryPath dependencies}
             '';
           };
 
