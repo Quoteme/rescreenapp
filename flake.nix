@@ -61,7 +61,7 @@
               mkdir -p $out/bin
               cp -r $src/build/linux/x64/release/bundle/* $out/bin/
               wrapProgram $out/bin/rescreenapp \
-                --set LD_LIBRARY_PATH ${pkgs.libepoxy}/lib
+                --prefix LD_LIBRARY_PATH : ${pkgs.lib.makeLibraryPath [pkgs.libepoxy pkgs.gtk3]}
             '';
           };
 
