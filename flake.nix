@@ -40,6 +40,7 @@
           xorg.libXdmcp
           xorg.libXtst
           cairo.dev
+          zlib
           # Dependencies for the flutter app
           mons
         ];
