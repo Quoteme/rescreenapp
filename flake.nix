@@ -44,25 +44,10 @@
         rec {
           defaultPackage = packages.rescreenapp;
 
-          packages.rescreenapp = pkgs.stdenv.mkDerivation {
-            name = "rescreenapp";
+          packages.rescreenapp = pkgs.flutter.mkFlutterApp rec {
             pname = "rescreenapp";
-            version = "1.0";
+            version = "0.0.1";
             src = ./.;
-          
-            buildInputs = dependencies;
-            nativeBuildInputs = [ pkgs.makeWrapper ];
-            dontConfigure = true;
-            dontBuild = true;
-            # buildPhase = ''
-            #   mkdir -p $out/bin
-            # '';
-            installPhase = ''
-              mkdir -p $out/bin
-              cp -r $src/build/linux/x64/release/bundle/* $out/bin/
-              wrapProgram $out/bin/rescreenapp \
-                --prefix LD_LIBRARY_PATH : ${pkgs.lib.makeLibraryPath [pkgs.libepoxy pkgs.gtk3 pkgs.zlib pkgs.pango]}
-            '';
           };
 
           devShells.default = pkgs.mkShell {
