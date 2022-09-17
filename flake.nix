@@ -47,6 +47,7 @@
           packages.rescreenapp = pkgs.flutter.mkFlutterApp rec {
             pname = "rescreenapp";
             version = "0.0.1";
+            buildInputs = [pkgs.mons];
             src = ./.;
             vendorHash = "sha256-hJ9txeDVq6IWCiKccPXSF4b6aa88rdGTK1IAL4ZkXjs=";
           };
