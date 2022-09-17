@@ -48,6 +48,7 @@
             pname = "rescreenapp";
             version = "0.0.1";
             src = ./.;
+            vendorHash = "sha256-hJ9txeDVq6IWCiKccPXSF4b6aa88rdGTK1IAL4ZkXjs=";
           };
 
           devShells.default = pkgs.mkShell {
